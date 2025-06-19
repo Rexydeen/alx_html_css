@@ -1,0 +1,312 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+header
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+    
+}
+
+li{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#banner {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('./pic/headphones_hero_1.jpg');
+    min-height: 100vh;
+    margin-top: -150px;
+    max-width: 1940px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.banner-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: -2px;
+}
+
+.banner-content p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.banner-content button {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+    width: 162px;
+    height: 44px;
+    background-color: #FF6565;
+    color: white;
+}
+
+.banner-statement{
+    margin-top: 10px;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+ 
+#whatWeDo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#whatWeDo h3 {
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#whatWeDo p {
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    justify-content: denter;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 26px;
+}
+.graphics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 70px;
+    margin-bottom: -10px;
+    
+}
+.sound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+
+.sound h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+.sound p {
+    font-size: 16px;
+    font-weight: 14;
+    font-style: source Sans Pro;
+    margin-top: -20px;
+    margin-bottom: 2opx
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+
+.video h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+.video p {
+    font-size: 16px;
+    font-weight: 14;
+    font-style: source Sans Pro;
+    margin-top: -20px;
+    margin-bottom: 2opx
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+
+.music h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+.music p {
+    font-size: 16px;
+    font-weight: 14;
+    font-style: source Sans Pro;
+    margin-top: -20px;
+    margin-bottom: 2opx
+}
+
+.hearing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+
+.hearing h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+.hearing p {
+    font-size: 16px;
+    font-weight: 14;
+    font-style: source Sans Pro;
+    margin-top: -20px;
+    margin-bottom: 2opx
+}
+
+#ourResult {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('./pic/headphones_hero_2.jpg');
+    min-height: 80vh;
+    margin-top: -50px;
+    max-width: 1940px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#ourResult h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: -2px;
+    margin-top: -80px;
+}
+
+#ourResult p {
+    font-size: 16px;
+    font-style: source Sans Pro;
+    margin-bottom: -50px;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 26px;
+}
+.pentagon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 150px;
+    margin-bottom: -20px;
+}
+#Contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px;
+    animation: fadeIn 1s ease-in-out;
+}
+#Contact-container h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.contact-form input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 335px;
+    max-width: 400px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 95%;
+    height: 20px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid black;
+    font-size: 14px;
+     border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+
+.c-button {
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 162px;
+    height: 44px;
+    background-color: #FF6565;
+    color: white;
+    padding: 2px;
+    border: none;
+}
