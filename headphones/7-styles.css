@@ -104,16 +104,21 @@ ul li a {
 }
 
 
-
 #whatWeDo p {
     flex-direction: column;
     font-family: 'Source Sans Pro', sans-serif;
-    justify-content: denter;
     font-size: 16px;
     text-align: center;
     margin-bottom: 40px;
     line-height: 26px;
 }
+
+
+#whatWeDo h3:hover {
+    animation: fadeIn 1.5s ease-in-out;
+    color: red;
+}
+
 .graphics {
     display: flex;
     flex-direction: row;
@@ -124,12 +129,17 @@ ul li a {
     margin-bottom: -10px;
     
 }
+
+
+
 .sound {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     line-height: 25px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    animation: bounce 2s infinite ease-in-out;
 }
 
 .sound h3 {
@@ -143,7 +153,13 @@ ul li a {
     font-weight: 14;
     font-style: source Sans Pro;
     margin-top: -20px;
-    margin-bottom: 2opx
+    margin-bottom: 20px;
+}
+
+.sound:hover {
+  transform: scale(1.5) rotate(360deg);
+  opacity: 1;
+  cursor: pointer;
 }
 
 .video {
@@ -152,6 +168,8 @@ ul li a {
     justify-content: center;
     align-items: center;
     line-height: 25px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    animation: bounce 2s infinite ease-in-out;
 }
 
 .video h3 {
@@ -168,12 +186,20 @@ ul li a {
     margin-bottom: 2opx
 }
 
+.video:hover {
+  transform: scale(1.5) rotate(360deg);
+  opacity: 1;
+  cursor: pointer;
+}
+
 .music {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     line-height: 25px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    animation: bounce 2s infinite ease-in-out;
 }
 
 .music h3 {
@@ -190,12 +216,20 @@ ul li a {
     margin-bottom: 2opx
 }
 
+.music:hover {
+  transform: scale(1.5) rotate(360deg);
+  opacity: 1;
+  cursor: pointer;
+}
+
 .hearing {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     line-height: 25px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    animation: bounce 2s infinite ease-in-out;
 }
 
 .hearing h3 {
@@ -210,6 +244,12 @@ ul li a {
     font-style: source Sans Pro;
     margin-top: -20px;
     margin-bottom: 2opx
+}
+
+.hearing:hover {
+  transform: scale(1.5) rotate(360deg);
+  opacity: 1;
+  cursor: pointer;
 }
 
 #ourResult {
@@ -234,6 +274,11 @@ ul li a {
     margin-top: -80px;
 }
 
+#ourResult h2:hover {
+    animation: fadeIn 1.5s ease-in-out;
+    color: red;
+}
+
 #ourResult p {
     font-size: 16px;
     font-style: source Sans Pro;
@@ -251,6 +296,11 @@ ul li a {
     margin-top: 150px;
     margin-bottom: -20px;
 }
+.pentagon:hover {
+  transform: translateY(-5px) scale(1.05);
+  background-color: #ff4d4d;
+}
+
 #Contact-container{
     display: flex;
     flex-direction: column;
